@@ -9,6 +9,7 @@ import State from './components/State';
 import Name from './components/Name';
 import Forms from './components/Forms';
 import New from './components/New';
+import Validation from './components/Validation';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
      {/* <Zero/> */}
      {/* <State/> */}
      {/* <Name/> */}
-   <New/>
+   {/* <New/> */}
+   <Validation/>
     
     </div>
   );
